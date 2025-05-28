@@ -59,7 +59,7 @@ def train_models(df):
     return models, vectorizer
 
 def get_label(n):
-    return "Fake News" if n == 0 else "Not a Fake News"
+    return "Notícia Falsa" if n == 0 else "Notícia Verdadeira"
 
 # Streamlit App
 st.title("📰 Detector de Fake News")
